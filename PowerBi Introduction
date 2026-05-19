@@ -1,0 +1,51 @@
+1.what is PowerBI
+  PowerBi is a data visuvalisation and  Business Intelligence tool used to analyze data and create Interactive reports
+  It was developed by Microsoft
+  it helps to # analyze data
+              create reports
+              build dashboards
+              find business insights
+
+2.why do we use PowerBi
+  we use PowerBi to convert rawdata into meaningful insights using charts and dashboards
+
+3.why companies use PowerBi
+  To track sales
+  Monitor profit
+  Analyze employment performance
+  understand customer behaviour
+
+4.what are the main components of PowerBi
+  1.PowerBi Desktop
+    used to # Import data
+              clean data
+              create reports
+  2.PowerBi Service
+    used to # publish reports
+              share dashboards
+  3.PowerBi Mobile
+    used to view reports anywhere
+
+5.what is Business Intelligence
+  it means analyzing business data to make better decisions 
+
+6.what is Report and Dashboard and explain its differnces
+REPORT:
+Detailed collection of data visuvalisation, means not real time data
+DASHBOARD:
+Real tiem data or summary view of business perfoemance
+DIFFERENCE:
+     Report                                   Dashboard
+Not realtime data                           Realtime data
+Detailed collection of data                 Quick Summary view 
+Multiple pages                              Single page
+More Interactive                            Simple and quick
+Create reports in pbi Desktop               publish at pbi service
+Shows complete info                         Shows only importants points
+
+
+7.Real time example:
+  -----------------
+ Imagine a supermarket
+ without powerbi ,it is very difficult to understand sales records
+ with powerbi , it easy to find more sales, profit and growth
