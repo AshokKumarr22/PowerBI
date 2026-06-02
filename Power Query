@@ -1,0 +1,22 @@
+1.What is power query and why we use it and why important?
+  Power query is a data cleaning tool ,it helps to make the cleaning process of uncleaned data
+  ->we can make changes like removing duplicates,nulls and errors , changing datatypes,merge columns,append rows
+  ->Without power query process, we cann't analyse data and create exact interactive reports and dashboards
+
+2.What we can do in power query
+  Change datatypes
+  Remove duplicates
+  Filter rows
+  Rename columns
+  Merge columns
+  Append rows
+
+3.what are the applied steps in power query
+  Every action performed in power query, it stored under Applied steps
+  Ex: Source,Changed type,Removed columns,Filtered rows
+  These steps are automatically repeated whenever data is refreshed
+
+4.power query workflow
+  Get data -> power query -> clean & transform data -> load data -> create reports
+
+5.
