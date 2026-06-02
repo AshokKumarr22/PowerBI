@@ -1,3 +1,9 @@
+FLOW CHART:
+---------
+Load data  -->  clean data   -->  Model data  -->  create calculations --> Build Reports --> publish Dashboards 
+(Get data)     (power query)      (Modelling)             (DAX)             (Visuvalisation)
+
+
 1.what is PowerBI
   PowerBi is a data visuvalisation and  Business Intelligence tool used to analyze data and create Interactive reports
   It was developed by Microsoft
