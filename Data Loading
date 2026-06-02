@@ -1,0 +1,39 @@
+1.What is data loading?
+The process of getting data from diff sources into powerbi
+
+2.Why it is important?
+Data loading is the first step in powerbi project,without getting data we cann't create interactive and dashboards
+
+3.what are the common data sources?
+we have data sources mainly we use
+   Excel
+   csv files
+   sql server
+   oracle
+   web
+
+4.what happens when you cick "GET DATA"
+when we click Get data option , powerbi shows different sources and when we select any source ,it connects to the selected data souce
+
+5.How do you load data into powerbi / what are the data loading steps
+  open powerbi desktop
+  click Get Data
+  select data source
+  connect to data source
+  finally select load or transfer
+
+6.what is ETL?How do you perform ETL activities in powerbi
+ETL means Extract,Transfer,Load
+->Extract helps to get data from different sources like excel,csv files,sql server and oracle
+->Transfer means it helps to make changes to data like changing datatypes,remove nulls and duplicates using power query 
+->Load means after cleaning data , power query load data into powerbi
+we extract getting data from various sources like excel,csv files and transfer the data to make changes by using power query editor and load into powerbi
+
+7.what is the difference b/w Load and transfer
+Load - It loads data directly,no need to modify
+Transfer - It's uncleaned data,Need to make changes using power query editor
+
+
+
+
+
