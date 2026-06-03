@@ -11,12 +11,29 @@
   Merge columns
   Append rows
 
-3.what are the applied steps in power query
+3.what are the significance of appliedsteps in power query
+  Applied steps are the list of transactions that r performed on data in power query.Each step is recorded and can be modified later
   Every action performed in power query, it stored under Applied steps
   Ex: Source,Changed type,Removed columns,Filtered rows
   These steps are automatically repeated whenever data is refreshed
 
-4.power query workflow
+4.why source is important in applied steps of power query
+  source is the first applied step in power query.we can get the filepath in source.
+  ->It establishes the connection to the datasource,power bi reads data from this location
+  ->During refresh,powerbi goes back to this source and get back the latest data
+  ->if the filepath oor database changes,the source step may show an error
+
+5.what is navigator
+  After source of applied steps,navigator is the second step
+  -> it selects a specific sheet or table inside the excel file from the connected data source
+  ex:
+    we have a HR file
+      .Employee sheet
+      .salary sheet
+    if we want employee sheet:
+     source    ->  connects to HR file
+     navigator ->  selects employee sheet
+
+6.power query workflow
   Get data -> power query -> clean & transform data -> load data -> create reports
 
-5.
