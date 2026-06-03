@@ -1,0 +1,35 @@
+1.what is modelling.why we use it.why it is important?
+  Modelling means the process of creating relationships between tables,so that powerbi can analyse data correctly,it helps to create accurate reports
+
+2.what is relationships
+  Relationship is a connection between two tables using a common column
+  we have 4 types of relationships
+  1.one-one
+  2.one-many
+  3.many-many
+  4.many-one
+
+3.what is cardinality
+  cardinality means relation between two tables
+  It defines the type of relationship
+  we have 4 types of relationships
+  1.one-one  
+  2.one-many
+  3.many-many
+  4.many-one
+
+4.what is starschema 
+  starschema means one fact table connected to multiple dimension table
+  fact table is at center connected to surrounding multiple dimension tables
+
+5.what is fact and dimension tables.Explain its difference
+  Fact tables contains numeric values,that can be change 
+  fact table is at center connected to dimension tables
+  ex: sales amount,quantity,profit,cost
+  Dimension table contains descriptive information and it is static,that cann't be changed
+  we have multiple dimension tables connected to one fact table
+  ex: customer name,product name,location,date
+        Fact table                            Dimension table
+   stores transcations                     stores descriptions
+   contain numeric values                  contain text/details
+    ex: salesamount                           ex:customername
